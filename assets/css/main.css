@@ -4983,7 +4983,7 @@ body .ui-tooltip {
 .banner-2__media {
   position: relative;
   overflow: hidden;
-  max-width: 504px;
+  /* max-width: 504px; */
   margin-left: auto;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
@@ -4994,9 +4994,9 @@ body .ui-tooltip {
   }
 }
 .banner-2__media img {
-  margin-left: 35px;
-  width: 469px;
-  height: 496px;
+  /* margin-left: 35px; */
+  width: 100%;
+  height: auto;
   overflow: hidden;
   -o-object-fit: cover;
      object-fit: cover;
@@ -5016,8 +5016,8 @@ body .ui-tooltip {
   bottom: -43px;
   width: 123px;
   height: 131px;
-  top: 322px;
-  background: var(--rr-theme-primary);
+  top: 460px;
+  background: #fff;
   border-radius: 20px 234.5px 20px 20px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
